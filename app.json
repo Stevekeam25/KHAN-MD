@@ -8,9 +8,9 @@
     "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Put the session-id here.",
+      "description": "session id",
       "required": true,
-      "value": ""
+      "value": "KHAN-MD~YWcVFTRS#Ye6wWYm4GFk8a2Pdzc3ka0kDVs2K97e1cT0WW7SG4ig"
     },  
     
     "STICKER_NAME": {
@@ -20,7 +20,7 @@
     }, 
       
     "PREFIX": {
-      "description": "paste your bot prefix note! Don't apply null prefix.",
+      "description": ".",
       "required": false,
       "value": "."
     },
@@ -60,14 +60,14 @@
 
     "AUTO_STATUS_SEEN": {
       "description": "Make it true for automatic status seen.",
-      "required": true,
-      "value": "true"
+      "required": false,
+      "value": "false"
     }, 
 
     "AUTO_STATUS_REACT": {
       "description": "make it true for automatic status reaction or like.",
-      "required": true,
-      "value": "true"
+      "required": false,
+      "value": "false"
     }, 
 
     "AUTO_STATUS_REPLY": {
@@ -78,13 +78,13 @@
 
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
-      "required": true,
+      "required": false,
       "value": "*SEEN YOUR STATUS BY KHAN-MD 🖤*"
    
      }, 
     
     "OWNER_NAME": {
-      "description": "Type Bot Owner Name.",
+      "description": "steve",
       "required": false,
       "value": "Jᴀᴡᴀᴅ TᴇᴄʜX"
 }, 
@@ -92,14 +92,14 @@
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "92310344XXXX"
+      "value": "254757661725"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "KHAN-MD"
+      "value": "slayer"
 
       }, 
 
